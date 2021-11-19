@@ -374,7 +374,7 @@ int main() {
     }
 #endif
 
-    SOCKET server = create_socket(0, "8080");
+    SOCKET server = create_socket(0, "80");
 
     while(1) {
 
